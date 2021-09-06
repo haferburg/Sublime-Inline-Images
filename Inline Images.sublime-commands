@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "Inline Images: Show All Images",
+        "command": "inline_images_show",
+        "args": {
+            "show_local": true,
+            "show_remote": true,
+        }
+    },
+    {
+        "caption": "Inline Images: Show Local Images",
+        "command": "inline_images_show",
+        "args": {
+            "show_local": true,
+            "show_remote": false,
+        }
+    },
+    {
+        "caption": "Inline Images: Show Remote Images",
+        "command": "inline_images_show",
+        "args": {
+            "show_local": false,
+            "show_remote": true,
+        }
+    },
+    {
+        "caption": "Inline Images: Hide Images",
+        "command": "inline_images_hide"
+    }
+]
