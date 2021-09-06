@@ -1,14 +1,25 @@
 # Inline Images
 
-Sometimes a million pixels say more than a thousand words.
+Sometimes ASCII art is not enough.
+
+Sometimes an image says more than a thousand words.
 
 This Sublime Text plugin can display images inline to improve your documentation.
 
-![Example TODO](example.png)
+![Example](https://user-images.githubusercontent.com/4941909/132251464-0f6c48b2-f6ca-4ef7-9c76-39a78fbdd67c.png)
+
 
 ## Usage
 
-Use the `![alt text](uri)` markdown syntax inside a single-line comment.
+Use the `![alt text](uri)` markdown syntax inside *a single-line comment*.
+
+E. g. in Python you would use
+
+```
+def hello():
+   # ![](say_hello.png)
+   print('Hello')
+```
 
 Local images are loaded by default, remote images (https://...) aren't.
 
@@ -32,11 +43,14 @@ Only PNG, JPG and GIF images are supported.
 ## Related
 
 Plugins with similar functionality:
+
 [ImagePreview](https://github.com/alvesjtiago/hover-preview)
+
 [Markdown Images](https://github.com/xsleonard/sublime-MarkdownImages)
+
 [Sublime ZK](https://github.com/renerocksai/sublime_zk)
 
 ## Credits 
 
-The plugin is based on [Markdown Images](https://github.com/xsleonard/sublime-MarkdownImages).
+This plugin is based on [Markdown Images](https://github.com/xsleonard/sublime-MarkdownImages).
 
