@@ -25,6 +25,14 @@ Local images are loaded by default, remote images (https://...) aren't.
 
 You can configure an image's dimensions by adding HTML `<img>` properties after the image markup: `![alt text](uri){width="200", height="200"}`. Everything between the `{}` will be copied to the `<img>` element that renders the image.
 
+## Installation
+
+I hope that it will be on Package Control soon.
+
+In the meantime, download the [latest release](https://github.com/haferburg/Sublime-Inline-Images/releases/new). In Sublime, select Preferences->Browse Packages..., then unzip the folder in the archive to that folder. Rename it to `Inline-Images`.
+
+![image](https://user-images.githubusercontent.com/4941909/132352176-c1dc2f8e-27c1-4016-b23d-b108cbbb2d40.png)
+
 ## Configuration
 
 Go to `Preferences -> Package Settings -> Inline Images`.
