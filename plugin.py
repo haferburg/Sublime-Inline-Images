@@ -11,7 +11,7 @@ import os.path
 import re
 
 
-DEBUG = True
+DEBUG = False
 
 PLUGIN_ID = "inline-image"
 
