@@ -29,7 +29,7 @@ You can configure an image's dimensions by adding HTML `<img>` properties after 
 
 I hope that it will be on Package Control soon.
 
-In the meantime, download the [latest release](https://github.com/haferburg/Sublime-Inline-Images/releases/new). In Sublime, select Preferences->Browse Packages..., then unzip the folder in the archive to that folder. Rename it to `Inline-Images`.
+In the meantime, download the [latest release](https://github.com/haferburg/Sublime-Inline-Images/releases). In Sublime, select Preferences->Browse Packages..., then unzip the folder in the archive to that folder. Rename it to `Inline-Images`.
 
 ![image](https://user-images.githubusercontent.com/4941909/132352176-c1dc2f8e-27c1-4016-b23d-b108cbbb2d40.png)
 
